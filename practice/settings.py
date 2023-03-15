@@ -17,7 +17,6 @@ import pymysql
 pymysql.install_as_MySQLdb()
 
 DATABASES = DATABASES
-SECRET_KEY = SECRET_KEY
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -27,7 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-ctgbu&lxd-5s!ass+*q4*b8&i=l11-o_t*8snk4s8oryn7opb0'
+SECRET_KEY = SECRET_KEY
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
